@@ -1,0 +1,56 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+    padding: 3rem;
+    background-color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    align-self: flex-start;
+    font-size: 18px;
+}
+
+.input {
+    flex-grow: 1;
+    padding: .5rem;
+    border: 1px solid #c1c1c1;
+    outline: none;
+}
+
+.indicators {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.indicator {
+    flex: 1 1 33.3333%;
+    height: 10px;
+    border-radius: 1rem;
+    background-color: #c1c1c1;
+}
+
+.indicator.short { 
+    background-color: #fb3535;
+}
+
+.indicator.first.easy {
+    background-color: #fb3535;
+}
+
+.indicator.first.medium, .indicator.second.medium {
+    background-color: yellow;
+}
+
+.indicator.strong {
+    background-color: #40dd40;
+}
